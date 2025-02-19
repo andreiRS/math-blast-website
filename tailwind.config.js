@@ -4,15 +4,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        'math-blue': {
-          light: '#69A1FF',
-          DEFAULT: '#4B87FF',
-          dark: '#3B6AD9',
+        'brand': {
+          blue: '#4361EE',
+          pink: '#FF6B6B',
+          mint: '#4ECCA3',
+          orange: '#FF9F1C',
+          purple: '#7209B7',
+          yellow: '#FFD93D',
         },
-        'math-pink': '#FFB5B5',
-        'math-mint': '#B8F4D6',
-        'math-orange': '#FFC278',
-        'math-purple': '#F2EEFF',
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       },
     },
   },
