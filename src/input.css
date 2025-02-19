@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-8 py-4 rounded-2xl font-bold transition-all duration-300 transform hover:-translate-y-0.5 shadow-lg text-lg;
+  }
+  .btn-primary {
+    @apply bg-blue-500 text-white hover:bg-blue-600 inline-flex items-center;
+  }
+  .btn-secondary {
+    @apply bg-white text-blue-500 hover:bg-gray-50 border-2 border-blue-500;
+  }
+  .rainbow-text {
+    @apply text-transparent;
+    background-image: linear-gradient(to right, #69A1FF, #FFB5B5, #FFC278, #B8F4D6);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: shimmer 3s ease-in-out infinite;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
