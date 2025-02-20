@@ -1,6 +1,6 @@
-# MathBlast! Website
+# MathBlast Website
 
-Landing page for MathBlast! - A fun math learning game for kids aged 8-10 years old.
+Landing page for MathBlast - A fun math learning game for kids aged 8-10 years old.
 
 ## Tech Stack
 
