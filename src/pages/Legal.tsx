@@ -23,12 +23,23 @@ const Legal: FC = () => {
 
         <section>
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">VAT ID</h2>
+          <p>VAT identification number according to § 27 a of the German VAT law:</p>
           <p>DE322720879</p>
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Responsible for Content</h2>
-          <p>Razvan Andrei Surdu</p>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">EU Dispute Resolution</h2>
+          <p>The European Commission provides a platform for online dispute resolution (ODR):{' '}
+            <a href="https://ec.europa.eu/consumers/odr/" className="text-brand-blue hover:underline" target="_blank" rel="noopener noreferrer">
+              https://ec.europa.eu/consumers/odr/
+            </a>
+          </p>
+          <p className="mt-2">Our email address can be found above in the impressum.</p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Consumer Dispute Resolution</h2>
+          <p>We are not willing or obliged to participate in dispute settlement proceedings before a consumer arbitration board.</p>
         </section>
       </div>
     </div>
