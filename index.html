@@ -31,19 +31,47 @@
         </nav>
 
         <!-- Hero Section -->
-        <section class="relative pt-16 bg-gradient-to-br from-green-200 via-blue-500 to-purple-500">
+        <section class="relative pt-16 bg-gradient-to-br from-brand-mint via-white to-brand-blue/10">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24 lg:py-32">
                 <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+                    <!-- Text Content -->
                     <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
-                        <h1 class="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
+                        <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                             Make Math Fun!
                         </h1>
-                        <p class="mt-3 text-xl text-white opacity-90 sm:mt-5">
+                        <p class="mt-3 text-xl text-gray-500 sm:mt-5">
                             A colorful and engaging math game for kids aged 8-10 years old. Practice basic arithmetic while having fun!
                         </p>
-                        <div class="mt-8 flex flex-col sm:flex-row gap-4 sm:justify-center lg:justify-start">
-                            <a href="#download" class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-blue-500 rounded-xl shadow-lg hover:-translate-y-0.5 transition-all duration-300">Start Playing</a>
-                            <a href="#features" class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-blue-500 bg-white rounded-xl shadow-lg hover:-translate-y-0.5 transition-all duration-300 border-2 border-blue-500">Learn More</a>
+                        <div class="mt-8 flex justify-center lg:justify-start">
+                            <a href="#download" class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-brand-blue rounded-xl shadow-lg hover:-translate-y-0.5 transition-all duration-300">Start Playing</a>
+                        </div>
+                    </div>
+
+                    <!-- Video Placeholder -->
+                    <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
+                        <div class="relative mx-auto w-full max-w-[320px]">
+                            <!-- Video Container with 9:16 aspect ratio -->
+                            <div class="relative bg-gray-900 rounded-3xl shadow-2xl aspect-[9/16] overflow-hidden">
+                                <!-- Placeholder Background -->
+                                <div class="absolute inset-0 bg-gradient-to-br from-brand-purple via-brand-blue to-brand-pink opacity-20"></div>
+                                
+                                <!-- Play Button -->
+                                <button class="absolute inset-0 w-full h-full flex items-center justify-center group">
+                                    <div class="relative w-20 h-20 flex items-center justify-center">
+                                        <!-- Play Button Background -->
+                                        <div class="absolute inset-0 bg-white rounded-full opacity-90 group-hover:opacity-100 transition-opacity"></div>
+                                        <!-- Play Icon -->
+                                        <svg class="relative w-10 h-10 text-brand-blue group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24">
+                                            <path d="M8 5v14l11-7z"/>
+                                        </svg>
+                                    </div>
+                                </button>
+
+                                <!-- Placeholder Text -->
+                                <div class="absolute bottom-4 left-4 right-4 text-white text-center opacity-60">
+                                    <p class="text-sm">Game Preview</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
