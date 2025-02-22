@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import { VideoPlaceholderProps } from '../types'
-import heroVideo from '../assets/MathBlastHeroVideo.mp4'
+import heroVideo from '/src/assets/MathBlastHeroVideo.mp4'
 
 const VideoPlaceholder: FC<VideoPlaceholderProps> = ({ className = '' }) => {
   return (
