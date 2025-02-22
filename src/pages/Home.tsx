@@ -76,13 +76,8 @@ const Home: FC = () => {
 
           {/* Game Preview */}
           <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
-            <div className="relative mx-auto w-full max-w-[320px] rounded-[3rem] shadow-2xl overflow-hidden bg-gray-900 aspect-[9/19.5] animate-float">
-              {/* iPhone-style notch */}
-              <div className="absolute top-0 left-1/2 -translate-x-1/2 h-6 w-36 bg-black rounded-b-2xl z-10"></div>
-              {/* Video container with iPhone-style rounded corners */}
-              <div className="absolute inset-0 rounded-[2.5rem] overflow-hidden">
-                <VideoPlaceholder />
-              </div>
+            <div className="relative mx-auto w-full max-w-[320px] rounded-[2rem] shadow-lg overflow-hidden bg-white">
+              <VideoPlaceholder />
             </div>
           </div>
         </div>
